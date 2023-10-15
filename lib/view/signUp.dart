@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:task4/util/strings.dart';
 import 'package:email_validator/email_validator.dart';
 import '../common/snackBar.dart';
-import 'home.dart';
 import 'logIn.dart';
 
 class SigUp extends StatefulWidget {

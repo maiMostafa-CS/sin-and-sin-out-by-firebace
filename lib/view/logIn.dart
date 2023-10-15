@@ -16,7 +16,7 @@ class _LogInState extends State<LogIn> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
 
-  logIn() async {
+  logIn()async {
     setState(() {
       isLoading = true;
     });

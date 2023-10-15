@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class Home extends StatelessWidget {
+  const Home({super.key});
+
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +16,7 @@ final myname=FirebaseAuth.instance.currentUser?.email;
         children: [
           Text(
           myname??"ِِِAdd name",
-            style: TextStyle(fontSize: 50),
+            style: const TextStyle(fontSize: 50),
           ),
           ElevatedButton(
             onPressed: () async {
